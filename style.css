@@ -1,0 +1,49 @@
+/* bonne pratique : initialisation à la créaion d'une page web */
+* {
+  margin: 0;
+  padding: 0;
+  border : 0 ;
+  box-sizing: border-box;
+  border: 1px black none;				/* fait apparaitre toutes les boites d'un page web */
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: .5fr 1.5fr 3.5fr .5fr;
+  grid-template-rows: 1fr 3fr 1fr;
+  grid-column-gap: 5px;
+  grid-row-gap: 3px;
+  height: 100%;
+  width: auto;
+  border: 1px black none;
+}
+
+img {
+  height: auto;
+  width: auto;
+}
+
+p {
+  font-size: 0.675em;
+  text-align: center; 
+}
+
+.btn {
+  text-align: right;
+}
+
+#l1c2 {
+	padding-top: 1vh;
+}
+
+#l1c3 {
+	padding-top: 1.5vh;
+}
+
+#l1c4 {
+	padding-top: 1.5vh;
+}
+
+#l2c1 {
+  padding-top: 5vh;
+}

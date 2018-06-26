@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title> Pole Emploi v2 </title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<!-- lien de bootstrapCDN -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+	<!-- fin lien bootstrapCDN -->
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+
+	<link rel='stylesheet' type='text/css' href='style.css'>	
+  </head>
+
+  <body>
+	<div class="grid">
+	
+
+			<!-- ligne n°1 - colonne n°1 - logo -->
+			<div id="l1c1">
+				<img src="./logo_pole_emploi.jpg" alt="logo pole emploi">
+			</div>
+		
+			<!-- ligne n°1 - colonne n°2 - menu déroulant -->
+			<div id="l1c2">
+				<!-- ajout dropdown -->
+				<div class="btn-group">
+					<button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						<img src="./logo_menu.jpg">
+					</button>
+					<div class="dropdown-menu dropdown-menu-right">
+						<button class="dropdown-item" type="button">Action</button>
+						<button class="dropdown-item" type="button">Another action</button>
+						<button class="dropdown-item" type="button">Something else here</button>
+					</div>
+				</div>
+				<!-- fin ajout dropdown -->	  
+			</div>
+		
+			<!-- ligne n° 1 - colonne n° 3 - pub gif -->
+			<div id="l1c3">
+				<img src="./talents-handicap.gif" alt="Pub gif">
+			</div>
+		
+			<!-- ligne n° 1 - colonne n° 4 - login -->
+			<div id="l1c4">
+				<!-- ajout bouton connexion -->
+				<a class="btn btn-primary" href="#" role="button">Connexion</a>
+				<!-- fin ajout bouton connexion -->
+			</div>
+
+			<!-- ligne n° 2 - colonne n° 1 - slider d'informations -->
+			<div id="l2c1">
+				<!-- ajout des sliders -->
+				<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+
+					<!-- indicateurs des slides -->
+					<ol class="carousel-indicators">
+						<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+						<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+						<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+						<li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+						<li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+					</ol>
+
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<img class="d-block w-100" src="./profil_competences.jpg" alt="First slide">
+							<div class="carousel-caption d-none d-md-block">
+								<h5>Mon Profil de Compétences...</h5>
+								<p>Un atout pour mon projet professionnel !<br>
+									Lire la Suite
+								</p>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<img class="d-block w-100" src="./vignetteseniorcv.jpg" alt="Second slide">
+							<div class="carousel-caption d-none d-md-block">
+								<h5>Comment faire son CV quand on a une longue carriere derriere soi ?</h5>
+								<p>Vous avez quinze, vingt, trente ans de <br>
+									carriere vous ? Ne visez surtout pas ehaustivite, mais<br>
+									Lire la Suite
+								</p>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<img class="d-block w-100" src="./vignettejobete.jpg" alt="Third slide">
+						</div>
+						<div class="carousel-item">
+							<img class="d-block w-100" src="./on-est-la-pour-vous.jpg" alt="Third slide">
+						</div>
+						<div class="carousel-item">
+							<img class="d-block w-100" src="./vignette_formation_numerique.jpg" alt="Third slide">
+						</div>
+					</div>
+				</div>
+				<!-- fin ajout des sliders -->
+			</div>
+					
+			<!-- ligne n° 2 - colonne n° 2 - informations -->
+			<div id="l2c2">
+
+			</div>
+		
+			<!-- ligne n° 2 - colonne n° 3 - entreprise / employeur particulier -->
+			<div id="l2c3">
+				<div class="services">
+				<h3> Acc&eacutedez a tous nos services en ligne !</h3>
+				</div>
+
+				<div class="offres">
+					<h1> 535 084 offres d'emploi disponibles </h1>
+				</div>
+
+				<!-- ajout form rechercher -->
+				<div class="recherche_emploi">
+					<nav class="navbar navbar-light bg-light">
+					<form class="form-inline">
+						<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+						<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+					</form>
+					</nav>
+				</div>
+				<!-- fin ajout form rechercher -->
+
+				<div class="btn-group-vertical">
+					<button type="button" class="btn btn-success">Entreprise ></button>
+					<button type="button" class="btn btn-info">Employeur Particulier ></button>
+				</div>
+
+				<!-- ajout barre de navigation horizontale -->
+				<div id="navh">
+					<ul class="nav justify-content-left">
+						<li class="nav-item">
+							<a class="nav-link active" href="#"><img src="./rond_1.jpg"></a>
+							<p>G&eacuterer mon dossier,<br> Publier mon CV</p>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#"><img src="./rond_2.jpg"></a>
+							<p>M&#146;inscrire, me r&eacuteinscrire<br> (demandeur d&#146;emploi)</p>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#"><img src="./rond_3.jpg"></a>
+							<p>Trouver ma<br>formation</p>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#"><img src="./rond_4.jpg"></a>
+							<p>Emploi Store</p>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#"><img src="./rond_5.jpg"></a>
+							<p>Plus de services</p>
+						</li>
+					</ul>
+				</div>
+				<!-- fin ajout barre de navigation horinzontale -->				
+			</div>
+		
+			<!-- ligne n° 3 - colonne n° 1 - espaces -->
+			<div id="l3c1">
+		
+			</div>
+		
+			<!-- ligne n° 3 - colonne n° 2 - espaces -->
+			<div id="l3c2">
+
+			</div>
+		
+			<!-- ligne n° 3 - colonne n° 3 - espaces -->
+			<div id="l3c3">
+
+			</div>
+		
+			<!-- ligne n° 3 - colonne n° 4 - espaces -->
+			<div id="l3c4">
+				<!-- ajout form rechercher -->
+				<div class="recherche_info">
+					<nav class="navbar navbar-light bg-light">
+						<form class="form-inline">
+							<h3>Actualit&eacutes de l'emploi&nbsp;&nbsp;&nbsp;&nbsp;</h3>
+							<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+							<button class="btn btn-outline-success my-2 my-sm-0" type="submit">&#x1F50D;</button>
+						</form>
+					</nav>
+				</div>
+				<!-- fin ajout form rechercher -->
+			</div>
+			
+	</div>
